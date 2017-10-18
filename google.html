@@ -126,6 +126,7 @@
 
             autocomplete = new google.maps.places.Autocomplete(
             /** @type {!HTMLInputElement} */(document.getElementById('autocomplete')));
+        //here you can restrict the countries
             autocomplete.setComponentRestrictions(
             {'country': ['be']});
 
@@ -172,7 +173,7 @@
         }
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASdjX4bmm7AmKsYFn-XIZTUyYTxz5ZGi8&libraries=places&callback=initAutocomplete"
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initAutocomplete"
         async defer></script>
   </body>
 </html>
